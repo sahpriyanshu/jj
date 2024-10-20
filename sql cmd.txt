@@ -1,0 +1,116 @@
+1c. Aim: Create a registration servlet in Java using JDBC. Accept the details such as
+
+Username, Password, Email, and Country from the user using HTML Form and store the
+
+registration details in the database.
+
+>> create database logindb;
+
+>> use logindb;
+
+>> create table user (username varchar(10) PRIMARY KEY, password varchar(20), email
+
+varchar(20), country(10));
+
+________________________________________________________________________________________________
+
+3b. Aim : Develop Simple Servlet Question Answer Application using Database. 
+
+
+>> create database qadb;
+
+>> use qadb;
+
+>> create table quiz (qno varchar(5) PRIMARY KEY, question varchar(100), op1
+
+varchar(50), op2 varchar(50), op3 varchar(50), op4 varchar(50), ans varchar(50));
+
+>> insert into quiz values ('001', 'Unit of Energy is ___', 'Dozen','Kilometre', 'Joule',
+
+'Hertz','Joule');
+
+>> insert into quiz values ('002', 'Following is the extension for saving a python file',
+
+'.jpg','.py', '.docx', '.cs','.py');
+
+>> insert into quiz values ('003', '___ is the largest continent', 'Asia','Antarctica', 'Europe',
+
+'Australia','Asia');
+
+>> insert into quiz values ('004', '___ is the smallest memory unit', 'bit','byte', 'Kilo Byte',
+
+'Gigabyte','bit');
+
+>> insert into quiz values ('005', 'Which is the only liquid metal', 'Steel','Aluminium',
+
+'Magnesium', 'Mercury','Mercury');
+
+________________________________________________________________________________________________
+
+4c. Aim : Create a registration and login JSP application to register and authenticate the user
+
+based on username and password using JDBC. 
+
+
+>> create table users(username varchar(20) PRIMARY KEY, password1
+
+varchar(20),password2 varchar(20), email varchar(20), country varchar(20));
+
+>> insert into users values ('Diksha','admin','admin','admin@admin.com','India');
+
+________________________________________________________________________________________________
+
+5a. Aim : Create an html page with fields, eno, name, age, desg, salary. Now on submit this
+
+data to a JSP page which will update the employee table of database with matching eno. 
+
+
+>> use logindb;
+
+>> create table emp (empid varchar(10) PRIMARY KEY, ename varchar(50), salary
+
+varchar(50), age varchar(50) );
+
+>> insert into emp values ('1', 'aaa', '221234', '11');
+
+>> insert into emp values ('2', 'bbb', '334567', '22');
+
+>> insert into emp values ('3', 'ccc', '44454', '33');
+
+>> insert into emp values ('4', 'ddd', '55123', '44');
+
+________________________________________________________________________________________________
+
+6b. Aim : Develop a Simple Room Reservation System Application Using EJB. 
+
+
+>> create database rrdb;
+
+>> use rrdb;
+
+>> Create table roombook (RoomId varchar(4) PRIMARY KEY, RoomType varchar(20), charges double(5,2), cust varchar(20), mob varchar(20), status varchar(10));
+
+>> insert into roombook values('1001','Delux',500.00,'','','Not Booked');
+
+>> insert into roombook values('1002','Super Delux',700.00,'','','Not Booked');
+
+>> insert into roombook values('1003','Suit',950.00,'','','Not Booked');
+
+>> insert into roombook values('2001','Delux',500.00,'','','Not Booked');
+
+>> insert into roombook values('2002','Super Delux',700.00,'','','Not Booked');
+
+>> insert into roombook values('2003','Suit',950.00,'','','Not Booked');
+
+
+________________________________________________________________________________________________
+
+7c. Aim : Develop simple Marks Entry Application to demonstrate accessing Database using
+ EJB. 
+
+
+>> create table studentdata (sname varchar(10), sub1 varchar(10), sub2 varchar(10));
+
+>> insert into studentdata values('aaa', '50', '40');
+
+________________________________________________________________________________________________
