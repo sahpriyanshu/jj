@@ -1,0 +1,19 @@
+The website showcases Priyanshu's:
+
+1. Profile: Brief bio, skills, and contact information.
+2. Projects: Showcase of 5+ projects with images, descriptions, and GitHub links.
+3. Experience: Work experience, including internships and job roles.
+4. Skills: Technical skills, including programming languages, frameworks, and tools.
+5. Education: Academic background and certifications.
+6. Contact: Links to social media profiles, email, and a contact form.
+
+Key Features:
+
+1. Clean, minimalistic design.
+2. Responsive layout for mobile and desktop devices.
+3. Easy navigation and clear sectioning.
+4. Links to GitHub repositories for project exploration.
+5. Social media integration.
+
+Overall, the website effectively presents Priyanshu's professional profile, skills, and experience.
+Making it a solid online presence for networking and career opportunities.

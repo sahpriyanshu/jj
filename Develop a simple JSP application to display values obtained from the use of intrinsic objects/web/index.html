@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page</title>
+</head>
+<body>
+    <h1>Use of Intrinsic Objects in HTML</h1>
+
+    <h2>Request Object</h2>
+    Query String: <span id="queryString"></span><br>
+    Context Path: <span id="contextPath"></span><br>
+    Remote Host: <span id="remoteHost"></span><br>
+
+    <h2>Response Object</h2>
+    Character Encoding Type: <span id="characterEncoding"></span><br>
+    Content Type: <span id="contentType"></span><br>
+    Locale: <span id="locale"></span><br>
+
+    <h2>Session Object</h2>
+    ID: <span id="sessionId"></span><br>
+    Creation Time: <span id="sessionCreationTime"></span><br>
+    Last Access Time: <span id="sessionLastAccessedTime"></span><br>
+
+    <script>
+        // Request Object
+        document.getElementById('queryString').innerText = window.location.search;
+        document.getElementById('contextPath').innerText = window.location.pathname;
+        document.getElementById('remoteHost').innerText = window.location.hostname;
+
+        // Response Object (These values are typically set on the server side, so they're placeholders here)
+        document.getElementById('characterEncoding').innerText = 'UTF-8'; // Hardcoded example
+        document.getElementById('contentType').innerText = 'text/html'; // Hardcoded example
+        document.getElementById('locale').innerText = navigator.language;
+
+        // Session Object (Sessions are usually managed on the server side; placeholders used here)
+        document.getElementById('sessionId').innerText = 'PlaceholderSessionID';
+        document.getElementById('sessionCreationTime').innerText = new Date().toLocaleString();
+        document.getElementById('sessionLastAccessedTime').innerText = new Date().toLocaleString();
+    </script>
+</body>
+</html>
